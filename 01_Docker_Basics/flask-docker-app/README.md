@@ -33,6 +33,7 @@ Copy
 flask
 Dockerfile
 
+
 dockerfile
 Copy
 
@@ -42,6 +43,8 @@ COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
 CMD ["python", "app.py"]
+
+
 Build and run:
 
 bash
