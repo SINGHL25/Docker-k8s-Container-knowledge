@@ -1,3 +1,4 @@
+
 ✅ STEP 2: Mini-Project 1 — Simple Containerized App
 🔧 Project: Hello Flask App in Docker
 
@@ -5,13 +6,14 @@ Create app:
 
 bash
 Copy
-Edit
+
 mkdir flask-docker-app && cd flask-docker-app
+
 app.py
 
 python
 Copy
-Edit
+
 from flask import Flask
 app = Flask(__name__)
 
@@ -25,13 +27,13 @@ requirements.txt
 
 nginx
 Copy
-Edit
+
 flask
 Dockerfile
 
 dockerfile
 Copy
-Edit
+
 FROM python:3.9-slim
 WORKDIR /app
 COPY . .
@@ -42,8 +44,9 @@ Build and run:
 
 bash
 Copy
-Edit
+
 docker build -t flask-docker-app .
 docker run -p 5000:5000 flask-docker-app
 Test:
+
 Visit http://localhost:5000
