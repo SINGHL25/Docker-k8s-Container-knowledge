@@ -27,5 +27,5 @@ jobs:
       with:
         context: ./app
         push: true
-        tags: yourdockerhubusername/myapp:latest
+        tags: SINGHL25/myapp:latest
 
