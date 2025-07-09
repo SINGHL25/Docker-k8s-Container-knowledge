@@ -27,4 +27,5 @@ jobs:
           context: ./app
           push: true
           tags: SINGHL25/myapp:latest
+          
 
